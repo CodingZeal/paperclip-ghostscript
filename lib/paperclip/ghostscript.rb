@@ -25,10 +25,6 @@ module Paperclip
 
     private
 
-    #def file
-      #@file or raise "File is not defined"
-    #end
-
     def basename
       @basename or raise "Basename is not defined"
     end
