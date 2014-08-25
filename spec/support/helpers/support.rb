@@ -1,6 +1,6 @@
 module SupportHelpers
   def support_file_path(path)
-    File.expand_path("../support/#{path}", __FILE__)
+    File.expand_path("../../#{path}", __FILE__)
   end
 
   def support_file(path, method = "r")

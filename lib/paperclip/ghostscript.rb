@@ -1,9 +1,10 @@
 require "paperclip"
-require "paperclip/ghostscript/version"
+require "tempfile"
 
 module Paperclip
   class Ghostscript < Processor
 
+    VERSION = "0.1.0"
     COMMAND = "gs"
 
     attr_accessor :current_geometry, :target_geometry, :format, :whiny, :convert_options, :source_file_options
