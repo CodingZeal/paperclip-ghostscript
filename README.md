@@ -1,4 +1,8 @@
 # Paperclip::Ghostscript
+[![Build
+Status](https://travis-ci.org/CodingZeal/paperclip-ghostscript.svg)](https://travis-ci.org/CodingZeal/paperclip-ghostscript)
+[![Code
+Climate](https://codeclimate.com/github/CodingZeal/paperclip-ghostscript/badges/gpa.svg)](https://codeclimate.com/github/CodingZeal/paperclip-ghostscript)
 
 Add support to Paperclip to generate JPG thumbnail images from
 Ghostscript supported files (e.g. Adobe PDF)
@@ -27,7 +31,6 @@ Add the processor to your model:
 
 ```ruby
   class Agreement < ActiveRecord::Base
-
     has_attached_file :document, styles: {
       thumb: { geometry: "150x150", format: "jpg" }
     }, processors: [:ghostscript]
