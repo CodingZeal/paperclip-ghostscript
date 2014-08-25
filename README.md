@@ -1,6 +1,6 @@
 # Paperclip::Ghostscript
 
-TODO: Write a gem description
+Adding support to process attachments with Ghostscript
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Coming soon...
 
 ## Contributing
 
